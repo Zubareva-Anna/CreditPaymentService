@@ -4,6 +4,6 @@ public class Main {
         int price = 1_000_000;
         int month = 12;
         double payment = service.calculate(price, month);
-        System.out.println(payment);
+        System.out.println(payment + " рублей" + ".");
     }
 }
